@@ -10,3 +10,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
   
+.wrapper {
+  background-color: #f00;
+}
+
+.wrapperDivs {
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+}
