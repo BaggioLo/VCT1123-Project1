@@ -53,7 +53,14 @@ for (i = 0; i < 4; i++){
     myDiv.setAttribute('id', 'ID' + [i]);
 }
 
-
+function Artist (aristname, album, label, year, albumlmg, bio){
+    this.artistname = artistname;
+    this.album = album;
+    this.label = label;
+    this.year = year;
+    this.albumlmg = albumlmg;
+    this.bio = bio;
+}
 
 
 
