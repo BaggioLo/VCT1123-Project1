@@ -32,6 +32,11 @@ var wrapper_Divs = document.getElementsByClassName('wrapperDivs');
 
 // console.log(wrapper_Divs) it is running smoothly
 
+var divOne = wrapper_Divs.item[0];
+var divTwo = wrapper_Divs.item[1];
+var divThree = wrapper_Divs.item[2];
+var divFour = wrapper_Divs.item[3];
+
 
 
 
