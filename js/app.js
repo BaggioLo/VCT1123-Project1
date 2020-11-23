@@ -27,3 +27,12 @@ var color3 = "linear-gradient(35deg, #0B132B 0%, #5BC0BE 100%)";
 var color4 = "linear-gradient(235deg, #5BC0BE 0%, #3A506B 100%)";
 
 colorsArray = [color1, color2, color3, color4];
+
+var wrapper_Divs = document.getElementsByClassName('wrapperDivs');
+
+// console.log(wrapper_Divs) it is running smoothly
+
+
+
+
+
