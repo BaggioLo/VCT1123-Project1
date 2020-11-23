@@ -32,14 +32,40 @@ var wrapper_Divs = document.getElementsByClassName('wrapperDivs');
 
 // console.log(wrapper_Divs) it is running smoothly
 
-var divOne = wrapper_Divs.item[0];
-var divTwo = wrapper_Divs.item[1];
-var divThree = wrapper_Divs.item[2];
-var divFour = wrapper_Divs.item[3];
+var divOne = wrapper_Divs.item(0);
+var divTwo = wrapper_Divs.item(1);
+var divThree = wrapper_Divs.item(2);
+var divFour = wrapper_Divs.item(3);
 
 var allDivs = [divOne, divTwo, divThree, divFour];
 
-// console.log(allDivs); it is running smoothly
+/*
+for (i = 0; i < 4; i++){
+    for(j = 0; j < 4; j++)
+        wrapper_Divs[i].style.backgroundImage = colorsArray[j];
+}
+/*
+wrapper_Divs[0].style.backgroundImage = colorsArray[0];
+wrapper_Divs[1].style.backgroundImage = colorsArray[1];
 
+/* for (i = 0; i < 4; i++){
+    myDiv = allDivs[i];
+    myDiv.style.backgroundImage = colorsArray[i];
+    
+} 
+
+wrapper_Divs[0].style.backgroundImage = colorsArray[0]; */
+
+/* for (i = 0; i < 4; i++){
+    myDiv = allDivs[i];
+ } 
+
+for (i = 0; i < 4; i++){
+    myDiv.style.backgroundImage = colorsArray[i];
+} */
+
+ /* for (var i = 0; i < 4; i++){
+     myDiv = allDivs[i];
+ } */
 
 
