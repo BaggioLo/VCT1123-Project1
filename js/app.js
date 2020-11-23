@@ -39,22 +39,16 @@ var divFour = wrapper_Divs.item(3);
 
 var allDivs = [divOne, divTwo, divThree, divFour];
 
-/*
-for (i = 0; i < 4; i++){
-    for(j = 0; j < 4; j++)
-        wrapper_Divs[i].style.backgroundImage = colorsArray[j];
-}
+
 /*
 wrapper_Divs[0].style.backgroundImage = colorsArray[0];
-wrapper_Divs[1].style.backgroundImage = colorsArray[1];
+wrapper_Divs[1].style.backgroundImage = colorsArray[1]; */
 
-/* for (i = 0; i < 4; i++){
+for (i = 0; i < 4; i++){
     myDiv = allDivs[i];
     myDiv.style.backgroundImage = colorsArray[i];
     
 } 
-
-wrapper_Divs[0].style.backgroundImage = colorsArray[0]; */
 
 /* for (i = 0; i < 4; i++){
     myDiv = allDivs[i];
