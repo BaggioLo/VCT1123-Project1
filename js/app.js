@@ -54,12 +54,12 @@ for (i = 0; i < 4; i++){
     myDiv.setAttribute('id', 'ID' + [i]);
 }
 
-function Artist (artistname, album, label, year, albumlmg, bio){
+function Artist (artistname, album, label, year, albumImg, bio){
     this.artistname = artistname;
     this.album = album;
     this.label = label;
     this.year = year;
-    this.albumlmg = albumlmg;
+    this.albumImg = albumImg;
     this.bio = bio;
 }
 
@@ -79,7 +79,21 @@ var allArtist = [artist1, artist2, artist3, artist4];
 
 // console.log(allArtist[0].artistname) Autechre appears. Seems to run smoothly
 
+// getArtist Function
+
+function getArtist (){
+    var sections = document.querySelectorAll('.wrapperDivs>section');
+}
+
+for (var i = 0; i < sections.length; i ++) {
+    var artistList = "<table>"
+    artistList += <tr><td>Artist Name:</td><td>” + allArtists[i].artistname + “</td></tr>”;
+    artistList += <tr><td>Artist Album:</td><td>” + allArtists[i].album + “</td></tr>”;
+    artistList += <tr><td>Artist Label:</td><td>” + allArtists[i].label + “</td></tr>”;
+    artistList += <tr><td>Release Year:</td><td>” + allArtists[i].year + “</td></tr>”;
+    artistList += "</table>"
+}
 
 
-
+// var x = document.createElement("albumimg");
 
